@@ -4,10 +4,10 @@ import time
 import calendar
 import datetime
 
-ticks = base.time()
+ticks = datetime.time()
 print ticks
 
-localtime = time.localtime(base.time())
+localtime = time.localtime(datetime.time())
 print localtime
 print localtime[0]
 
